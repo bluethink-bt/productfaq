@@ -1,0 +1,22 @@
+{
+    "name": "bluethink/module-productfaq",
+    "description": "copyright@bluethink",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bluethink",
+            "email": "info@bluethink.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bluethink\\ProductFaq\\": ""
+        }
+    }
+}

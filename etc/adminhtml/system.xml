@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="bluethink" translate="label" sortOrder="999">
+			<label>bluethink</label>
+		</tab>
+		<section id="product_faq" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>product_faq</label>
+			<tab>bluethink</tab>
+			<resource>Bluethink_ProductFaq::config_bluethink_productfaq</resource>
+			<group id="general" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>general</label>
+				<field id="enable" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>enable</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
